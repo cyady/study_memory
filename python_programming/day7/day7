@@ -1,0 +1,58 @@
+day7
+----------------
+
+java -
+python - structured + object oriented
+
+class , object
+
+oops_object oriented programming system(객체지향 프로그래밍)
+---
+class
+object
+inheritence(상속)
+polymorphism(다향성프리즘?)
+
+class object
+
+
+
+Employee(class, logical entity) ------> john, scott, marry etc...(object, physical entities)
+Animal(class) ----> Dog, Horse, Elephant etc,,,(object)
+
+class -----> collection of variables(attributes) & methods(behavior)
+변수의 모음 속성은 예를 들어  모든 직원의 ID(변수) 봉급계산(behavior)
+ex ) A class is blue print(청사진)
+Logical entity
+Does not occupy space in the memory
+클래스는 청사진일 뿐이며 그러므로 메모리의 공간을 차지하지 않는 논리적 개체이다.
+오브젝트는 청사진 위에 세워지는 빌딩 등의 건물이라고 할 수 있다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
