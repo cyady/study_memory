@@ -15,8 +15,6 @@ polymorphism(다향성프리즘?)
 
 class object
 
-
-
 Employee(class, logical entity) ------> john, scott, marry etc...(object, physical entities)
 Animal(class) ----> Dog, Horse, Elephant etc,,,(object)
 
@@ -25,19 +23,52 @@ class -----> collection of variables(attributes) & methods(behavior)
 ex ) A class is blue print(청사진)
 Logical entity
 Does not occupy space in the memory
+
+object ----> object is an instance of class
+Physical entity
+Occupy certain amount space in the memory
+
 클래스는 청사진일 뿐이며 그러므로 메모리의 공간을 차지하지 않는 논리적 개체이다.
 오브젝트는 청사진 위에 세워지는 빌딩 등의 건물이라고 할 수 있다.
 
 
+For one class, we can creat multiple objects.
+Objects are indepandent
+
+Function VS Method
+----------------
+Function --> we can create without class
+Method --> creates in side the class
+
+2 types of method we can define within the class
+1) instance method (we can call only true objedt)
+2) static method (we can directly call using class)
+
+annotation @staticmethod -정적메소드로 처리
+
+모든 메서드에 대해 동일한 종류의 구현을 갖고싶다
+이 경우 모든 객체를 정적 메서드로 지정할 수 있는 공통 메서드로 만들 수 있다.
+
+----
+Global variables
+class variables
+local variables
+
+Method & constructor
+-------
+Method: give any name
+        return the value/s
+        method can take argument/parameters
+        we have to use an object to invoke the method
+
+Constructor: constructor name is fixed:
+        def __init__(self):
+        constructor will not return any value
+        constructor can also take arguments/parameter
+        constructor will be called at the time of object creation itself
 
 
-
-
-
-
-
-
-
+#(_underscore)
 
 
 
