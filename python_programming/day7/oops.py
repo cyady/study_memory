@@ -87,17 +87,77 @@
 # obj2=MyClass()
 # obj2.display("scott")
 
-#Example7: constructor example
-class MyClass:
-    def __init__(self):
-        print("this is consturctor..")
-    def m1(self):
-        print("hello")
-    def m2(self, x,y):
-        return(x,y)
-mc=MyClass()    #invoke constructor automatically this is consturctor..
-mc.m1() #method we have call explicitely by using object
-res=mc.m2(10,20)
-print(res)  #30
+# #Example7: constructor example
+# class MyClass:
+#     def __init__(self):
+#         print("this is consturctor..")
+#     def m1(self):
+#         print("hello")
+#     def m2(self, x,y):
+#         return(x,y)
+#
+# mc=MyClass()    #invoke constructor automatically this is consturctor..
+# mc.m1() #method we have call explicitely by using object
+# res=mc.m2(10,20)
+# print(res)  #30
+
+# #Example8
+#
+# class MyClass:
+#     name="john"
+#     def __init__(self, name):   # constructor expecting one argument
+#         print(name)
+#         print(self.name)
+#
+# mc=MyClass("David") #passing parameter to the constructor
+
+# #Example9
+#
+# #Req: Emplyee_EMP
+#     # constructor : eid, ename, sal
+#     # display() : print eid, ename & sal
+#
+# class Emp:
+#     eid=""
+#     ename=""
+#     sal=""
+#     def __init__(self, eid, ename, sal):
+#         self.eid=eid
+#         self.ename=ename
+#         self.sal=sal
+#
+#     def display(self):
+#         print(self.eid,self.ename,self.sal)
+#
+# e1=Emp(101, "John", 500000) #101 John 500000
+# e1.display()
+#
+# e2=Emp(102, "scott", 700000) #101 John 500000
+# e2.display()
+
+#Example10
+
+#Req: Emplyee_EMP
+    # constructor : eid, ename, sal
+    # conctructor : print eid, ename & sal
+class Emp:
+
+    def __init__(self, eid, ename, sal):
+        self.eid=eid
+        self.ename=ename
+        self.sal=sal
+
+    def __str__(self):
+        return(self.ename,self.sal)    #TypeError: __str__ returned non-string (type tuple)
+        #invalid becoz __str__() returns only string data
+e1=Emp(101, "John", 500000) #101 John 500000
+print(e1)
+
+
+
+
+
+
+
 
 

@@ -1,0 +1,37 @@
+Day9
+-----------
+Modules & Packages
+---------------------
+
+Module ---> collection of functions, classes(variables + methods)
+
+1) How to create a module
+2) How to call the functions from one module to another module..
+3) Same functions in 2 modules
+
+Approach1 : import moduleName
+Approach2 : from modulename import functions, classes
+
+Packages
+--------------
+# 자바와 파이썬에서 개념이 조금 다르다
+Package : Collections of modules.
+
+Packages ---> Modules ---> functions & classes
+
+#Ex1
+#pack1  ==> module1 ==> display()
+        ==> module2 ==> show()
+#Ex2
+#package1=>package2 ==> module2 ==> show()
+         =============> module1 ==> display()
+
+#Ex3
+#Package    #Modules    #Classes    #Methods
+#packA  ==> emp ==>     Employee    : displayemp()
+#packB  ==> stu ==>     Student     : displaystu()
+#packC  ==> client
+
+
+
+

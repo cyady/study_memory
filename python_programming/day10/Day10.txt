@@ -1,0 +1,25 @@
+Day10 Python Programming
+---------------------------
+Exception handling
+
+Exception is an event which will cause program termination
+
+
+try, except, else
+
+
+except ---> executes only when exception occured
+else ---> executes only exceptions not occured
+finally ---> always executes...
+
+File Handling/ working with the text
+---------------------------------------
+
+
+
+
+
+
+
+
+

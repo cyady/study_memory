@@ -1,0 +1,53 @@
+Day8 - Python programming
+---------------------------
+
+Class
+Object
+Method
+Constructor
+객체 기반 프로그래밍과 객체 지향 프로그래밍의 주요 차이점
+Inheritance(상속)
+----------------
+Aquiring all the attributes(variables) & behavior(method) from one class to another class is called as inheritance
+
+parent ---> properties
+chile  --->
+
+class A ---> a, b, c  m1(), m2() ----> A is parent of B class   (Base class/Super class)
+class B(A) ---> x,y,z m3()       ----> B is child of A class    (Sub class/ Derived class)
+Objectives of inheritance
+----------------------
+1) Code re-usability
+2) Avoid duplication
+
+
+Types of inheritance
+----------------------
+1)single
+2)multi level
+3)Heirarchy(계층)
+4)Multiple
+----------------------
+Polymorphism
+shape --- circle, rectangle, square...
+polymorphism we can implement using overloading concept..
+one thing can have many forms that is called polymorphism
+class
+add(1,2)
+add(1,2,3)
+add(1,2,3,5)
+
+user...
+add()
+add(10,20)
+add(10,20,30)
+
+overloading ----> java와 약간 차이가 있음
+파이썬은 오버로딩을 지원하지 않으나 변칙적으로 구현할 수 있다. java는 오버로딩기능이 있음
+
+class
+object      ----> methods, static method, constructor
+inheritance ----> types, overriding, super()
+polymorpism ----> overloading
+
+
