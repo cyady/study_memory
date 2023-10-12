@@ -4,7 +4,7 @@ import openai
 from gtts import gTTS
 from playsound import playsound
 
-openai.api_key = "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"
+openai.api_key = ""
 model="gpt-3.5-turbo"
 """messages=[
         {"role": "system", "content": "You are a helpful assistant."},
