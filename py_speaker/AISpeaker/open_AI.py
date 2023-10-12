@@ -2,7 +2,7 @@ import os
 import openai
 
 # Load your API key from an environment variable or secret management service
-openai.api_key = "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"
+openai.api_key = ""
 
 
 """messages=[
